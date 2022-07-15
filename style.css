@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2rem; 
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #E5E8E8;
+    cursor: pointer;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.sideIcon{
+    padding: 1rem;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebarL{
+    background-color: #282828;
+}
+
+.sidebarLinks{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+
+.logoutIcon{
+    margin-top: 5rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.main{
+    background-color: #131313;
+}
+
+nav{
+    padding: 1rem;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navSearch{
+    width: 50rem;
+    height: 2rem;
+    border-radius: 0.8rem;
+    background-color: #282828;
+    outline: none;
+    border: none;
+    color: #E5E8E8;
+    font-family: inherit;
+    padding: 0.2rem 1rem;
+}
+
+.navIcon{
+    position: relative;
+    left: -2rem;
+    cursor: pointer;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #E5E8E8;
+    padding: 0 1rem;
+}
+
+.userName{
+    padding: 0 0.2rem;
+}
+
+/* REST OF MAIN HERE ------- */
+
+.sidebarR{
+    background-color: #282828;
+    font-family: 'poppins', sans-serif;
+    padding: 2.1rem;
+}
+
+.playlistText{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #E5E8E8;
+    padding: 1rem 0;
+}
+
+.songTab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.songPoster{
+    height: 4rem;
+    width: 4rem;
+}
+
+.songInfo{
+    color: #E5E8E8;
+    padding: 0.5rem;
+}
+
+.songTitle{
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.songArtist{
+    font-size: 0.6rem;
+}

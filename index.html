@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width" ="device-width," initial-scale="1" />
+    <title>Tripp : Free Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebarL">
+        <div class="sidebarLinks">
+          <a href="#">
+            <i class="material-icons sideIcon">home</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon">search</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon">favorite_border</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon">mic</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon">trending_up</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon">download</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon">filter_list</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon">add</i>
+          </a>
+          <a href="#">
+            <i class="material-icons sideIcon logoutIcon">logout</i>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <nav>
+          <div class="searchbar">
+            <input
+              type="text"
+              class="navSearch"
+              placeholder="Search for Songs, Artist, Albums..."
+            />
+            <i class="material-icons navIcon">search</i>
+          </div>
+          <i class="material-icons">notifications</i>
+          <div class="user">
+            <i class="material-icons">person</i>
+            <p class="userName">John</p>
+          </div>
+        </nav>
+      </div>
+      <div class="sidebarR">
+        <p class="playlistText">Next songs in your playlist</p>
+        <div class="songsGrid">
+          <div class="songTab song1">
+            <div class="songImage">
+              <img src="https://picsum.photos/200" alt="" class="songPoster" />
+            </div>
+            <div class="songInfo">
+              <p class="songTitle">Bones</p>
+              <p class="songArtist">Imagine Dragons</p>
+            </div>
+            <i class="material-icons sidebarRIcon">more_vert</i>
+          </div>
+          <div class="songTab song2">
+            <div class="songImage">
+              <img src="https://picsum.photos/200" alt="" class="songPoster" />
+            </div>
+            <div class="songInfo">
+              <p class="songTitle">Thank You</p>
+              <p class="songArtist">Dido</p>
+            </div>
+            <i class="material-icons sidebarRIcon">more_vert</i>
+          </div>
+          <div class="songTab song3">
+            <div class="songImage">
+              <img src="https://picsum.photos/200" alt="" class="songPoster" />
+            </div>
+            <div class="songInfo">
+              <p class="songTitle">Paracetamol</p>
+              <p class="songArtist">Anurag Saikia</p>
+            </div>
+            <i class="material-icons sidebarRIcon">more_vert</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
